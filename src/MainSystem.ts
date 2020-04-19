@@ -31,7 +31,9 @@ export class MainSystem {
   private ses: SES | undefined;
 
   /**
-   * Ad Subscription and Delivery System
+   * Listens for new overlays and creates subscriptions for ad delivery.
+   * It also delivers the ad to the different deliverable emplacements as Platform Chats
+   * or anything else.
    */
   private asds: ASDS | undefined;
 
