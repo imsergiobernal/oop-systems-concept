@@ -1,4 +1,7 @@
 # Objective: avoid distributed systems when there are no needs.
+
+[🗺 UML Diagram](UML.jpg)
+
 A distributed system is in somewhere very useful. Boundaries are really explicit, but it has an
 inherted complexity.
 
@@ -40,5 +43,4 @@ code).
 > ... Inside the component, the separation of concerns is still
 maintained, so the business logic is separate from data persistence, but that’s a
 component implementation detail that consumers don’t need to know about.
-
 
